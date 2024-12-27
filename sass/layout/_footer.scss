@@ -1,0 +1,13 @@
+.header{
+    padding-top: 37px;
+    margin-bottom: 100px;
+    margin-right: 70px;
+    @include navegador;
+
+    .logo{
+        width: 85%;
+    }
+    ul{
+        @include estilo-navegador;
+    }
+}

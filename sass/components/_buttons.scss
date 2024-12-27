@@ -1,0 +1,37 @@
+@mixin estilo-button{
+    &.button{
+    padding: 16px 69px 17px 68px;
+    background-color: $pink;
+    border-radius: 16px 16px 16px 0px;
+    text-decoration: none;
+    color: $white;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.7s;
+    
+    &:hover{
+        background-color: $white;
+        color: $pink;
+        font-weight: 400;
+        transition: 0.5s;
+        }
+    }
+}
+
+@mixin estilo-link{
+    &.link{
+        color: $white;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        text-decoration-line: underline;
+        transition: 0.7s;
+
+        &:hover{
+            color: $pink;
+        }
+    }
+}
